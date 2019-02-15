@@ -23,6 +23,7 @@ namespace Projekat
     public partial class MainWindow : Window
     {
         NetworkModel nm = new NetworkModel();
+
         public MainWindow()
         {
             InitializeComponent();
