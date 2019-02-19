@@ -11,15 +11,15 @@ namespace Projekat.Models
 
         public LineEntity() { }
 
-        public long Id { get; set; }
+        public ulong Id { get; set; }
         public string Name { get; set; }
         public bool IsUnderground { get; set; }
         public double R { get; set; }
         public string ConductorMaterial { get; set; }
         public string LineType { get; set; }
         public double ThermalConstantHeat { get; set; }
-        public double FirstEnd { get; set; }
-        public double SecondEnd { get; set; }
+        public ulong FirstEnd { get; set; }
+        public ulong SecondEnd { get; set; }
         public List<Point> Vertices { get; set; }
 
         public override string ToString()

@@ -8,7 +8,7 @@ namespace Projekat.Models
 {
     public class NodeEntity
     {
-        public long Id { get; set; }
+        public ulong Id { get; set; }
         public string Name { get; set; }
         public double X { get; set; }
         public double Y { get; set; }

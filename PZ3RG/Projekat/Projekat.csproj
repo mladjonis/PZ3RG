@@ -63,14 +63,19 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="HelperClasses\BreathFirstSearch.cs" />
+    <Compile Include="HelperClasses\Config.cs" />
     <Compile Include="HelperClasses\ConverterUTMToDecimal.cs" />
     <Compile Include="HelperClasses\DataIO.cs" />
+    <Compile Include="HelperClasses\DrawAndScale.cs" />
+    <Compile Include="HelperClasses\IBFS.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\GridCoordinates.cs" />
     <Compile Include="Models\LineEntity.cs" />
     <Compile Include="Models\NetworkModel.cs" />
     <Compile Include="Models\NodeEntity.cs" />
